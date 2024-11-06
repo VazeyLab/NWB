@@ -1,0 +1,33 @@
+NWBFile:
+  session_id: 'LCrepsalanes' # required by DANDI
+  session_description: 'anesthesia' # required by NWB
+  session_start_time: "2023-03-23T12:44:24-03:00" # required by NWB
+  lab: 'Vazey Lab'
+  institution: 'University of Massachusetts'
+  experimenter:
+    - "Rodberg, Ellen"
+  experiment_description: 'active avoidance and reward seeking task'
+  keywords:
+    - "reinforcement"
+    - "neuropixels"
+  notes: 'NONE'
+  pharmacology: 'NONE'
+  protocol: 'NONE'
+  related_publications:
+    - "N/A"
+  source_script: 'NONE'
+  source_script_file_name: 'NONE'
+  data_collection: 'NONE'
+  surgery: 'NONE'
+  virus: 'NONE'
+  stimulus_notes: 'NONE'
+Subject:
+  subject_id: 'EMR22009' # required by DANDI
+  description: 'EMR-22-009'
+  species: 'Rattus norvegicus' # Latin binomial, e.g. "Mus musculus" or "Homo sapiens"; required by DANDI
+  genotype: 'WT'
+  strain: 'SD' #threw error without this
+  sex: 'F'  # required by DANDI
+  age:  'P6M' # required by DANDI
+  weight: 'na' #threw error without this
+  date_of_birth: '20220926' # can be used instead of age
